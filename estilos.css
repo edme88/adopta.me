@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Nunito", sans-serif;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+                url("imagenes/patitas.avif");    
+}
+
+/*HEADER*/
+header{
+    background-color: rgb(135, 83, 152);
+    border-radius: 50%;
+    width: 400px;
+    height: 200px;
+}
+
+header img{
+    float: left;
+    width: 40%;
+    margin-top: 25px;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding-top: 80px;
+}
+
+/*NAV*/
+nav {
+    position: fixed;
+    top: 10px;
+    right: 0;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    display: flex; 
+    align-items: center; 
+    gap: 10px;
+    font-weight: 500;   
+}
+
+nav img{
+    width: 60px;
+    filter: invert(100%);
+    background-color: rgb(43, 226, 134);
+    border-radius: 50%;
+}
+
+nav span{
+    background-color: rgb(135, 83, 152);
+    color: white;
+    padding: 10px 20px;
+    margin-left: -20px;
+    border-radius: 0 20px 20px 0;
+}
+
+.selected span{
+    background-color: rgb(182, 112, 205);
+}
+
+/*MAIN*/
+.adoptantes{
+    margin: 20px 10% 0 10%;
+    margin-left: 10%;
+}
+.adoptantes img{
+    width: 580px; 
+}
+
+.adoptantes p{
+    float: right;
+    width: 40%;
+}

@@ -5,6 +5,7 @@
         <title>Adopta.me</title>
         <meta name="keywords" content="adopción, animales, Córdoba">
         <meta name="description" content="Página para adopción de gatos y perros en Córdoba">
+        <link href="estilos.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -12,12 +13,21 @@
             <h1>Adopta.me</h1>
         </header>
         <nav>
-            Home
-            <a href="adoption.html"> En adopción</a>
-            <a href="historias-exito.html"> Historias de Éxito</a> 
+            <a href="index.html" class="selected">
+                <img src="imagenes/paw-icon.png" alt="paw-icon">
+                <span>Home</span>
+            </a>
+            <a href="adoption.html">
+                <img src="imagenes/paw-icon.png" alt="paw-icon">
+                <span>En adopción</span>
+            </a>
+            <a href="historias-exito.html">
+                <img src="imagenes/paw-icon.png" alt="paw-icon">
+                <span>Historias de Éxito</span>
+            </a> 
         </nav>
         <main>
-            <section>
+            <section class="adoptantes">
                 <img src="imagenes/gatos-adopcion.jpg" alt="Gatos en Adopción">
                 <p>
                     "Somos una asociación dedicada a facilitar la adopción de gatos y perros, 

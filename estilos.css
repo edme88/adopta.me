@@ -44,6 +44,11 @@ nav a{
     font-weight: 500;   
 }
 
+nav a:hover span{
+    background-color: rgb(225, 0, 255);
+    font-weight: bolder;
+}
+
 nav img{
     width: 60px;
     filter: invert(100%);
@@ -61,6 +66,7 @@ nav span{
 
 .selected span{
     background-color: rgb(182, 112, 205);
+    font-weight: bolder;  
 }
 
 /*MAIN*/
@@ -75,4 +81,16 @@ nav span{
 .adoptantes p{
     float: right;
     width: 40%;
+}
+
+/*En Adopción*/
+.expo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.expo div{
+    background-color: azure;
+    margin: auto;
+    padding: 20px;
 }
